@@ -1,0 +1,79 @@
+body{
+    font-family: roboto;
+}
+html{
+    scroll-behavior: smooth;
+}
+.intro{
+    position: block;
+    background-image:url(img/brick.jpg);
+    background-size: auto;
+    background-repeat:no-repeat ;
+    background-position-x: 40%;
+    font-family: roboto;
+    width: 390px;
+    height: 844px;
+    margin-left: -10px;
+    margin-top: -10px;
+
+
+}
+.intro-box{
+    position: absolute;
+    text-align: center;
+    margin-top: 600px;
+    margin-left: 15%;
+    
+}
+.intro-box button{
+    border-style: none;
+    background-color: rgb(187, 44, 0);
+    color: white;
+    font-family: roboto;
+    font-size: 16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:40px ;
+    padding-right:40px ;
+    border-radius: 40px;
+}
+.intro-box p{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.801);
+    margin-bottom: -10px;
+}
+.item1{
+    display: inline-block;
+    width: 150px;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.308);
+    border-radius: 5px;
+    padding-left:5px ;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 20px;
+}
+.item1 img{
+    width: 50%;
+    text-align: center;
+}
+.item1 h3{
+    color: rgba(0, 0, 0, 0.76);
+}
+.describtion{
+    width: 96%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.226);
+}
+.item1 button{
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    font-family: roboto;
+    background-color: rgb(187, 44, 0);
+    color:rgba(255, 255, 255, 0.801);
+    margin-bottom: 10px;
+}
